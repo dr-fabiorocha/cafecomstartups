@@ -1,6 +1,23 @@
 
 <div class="content">
 
+  <div class="container">
+    <!-- Start Carousel -->
+    <div id="carousel-demo" class="carousel">
+      <div class="item-1">
+       asdasdasd
+      </div>
+      <div class="item-2">
+        dddd
+      </div>
+      <div class="item-3">
+       aaaaaxxxxxxxxxxxxxx
+      </div>
+    </div>
+    <!-- End Carousel -->
+  </div>
+
+
   <h2 class="title is-4">Projeto de Extensão Café com Startups</h2>
   
 Atualmente o termo Startup está na boca e no pensamento de muitas pessoas. Infelizmente existem muitos termos neste universo (principalmente em inglês) que confundem os entusiastas. Neste projeto de extensão pretende-se criar um grupo de estudos sobre Startups dentro da universidade mas aberto à toda a comunidade. Neste grupo serão apresentadas algumas informações sobre o universo das Startups e os participantes terão a oportunidade de desenvolver uma ideia de Startup e apresentá-la ao grupo (pitch) para receber ideias e crı́ticas construtivas sobre ela. Tudo isso enquanto aproveita um café e socializa com outros participantes.
@@ -16,6 +33,11 @@ Uma Startup inicia com uma ideia de produto/serviço geralmente desenvolvida pel
 
 
 
-    
+<script>
+  bulmaCarousel.attach('#carousel-demo', {
+    slidesToScroll: 1,
+    slidesToShow: 4
+  });
+  </script>
    
 </div>
